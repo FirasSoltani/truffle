@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "reload" : "nodemon app.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@moebius/http-graceful-shutdown": "^1.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "web3": "^1.2.4"
+  }
+}
